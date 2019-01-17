@@ -1,0 +1,10 @@
+body {
+  margin: 0 auto;
+  padding: 0 auto;
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-fluent {
+  margin: 0 15px;
+}

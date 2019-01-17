@@ -1,0 +1,6 @@
+.playlist {
+  padding: 0 15px 0 15px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+}

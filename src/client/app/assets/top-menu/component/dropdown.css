@@ -1,0 +1,15 @@
+.dropdown {
+  border: none; 
+  height: 50px;
+}
+
+.btn {
+  background: rgb(242, 242, 242);
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-weight: 500;
+}
+.dropdown-menu {
+  width: 100%;
+}

@@ -1,0 +1,19 @@
+.side {
+  background: rgb(21, 27, 49);
+}
+
+.logo {
+  width: 100%;
+}
+
+.list-group-item-action {
+  padding: 10px;
+  color: white;
+}
+.list-group-item-action:hover, .list-group-item-action:focus{
+  color:white;
+  font-weight: bold;
+  background: rgba(32, 41, 73,.3);
+  border-left: 2px solid white;
+  transition: .2s;
+}

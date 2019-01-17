@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "_id": 1,
+      "username": "Jerry James",
+      "personal_playlist": [
+        {
+          "id": 1,
+          "title": "5 Reasons to choose a notebook over a desktop computer",
+          "id_video": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "type": "video"
+        },
+        {
+          "id": 2,
+          "title": "Get around easily with a New York Limousine Service",
+          "id_video": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "type": "video"
+        },
+        {
+          "id": 3,
+          "title": "How to cook a tender juicy steak",
+          "id_video": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "type": "video"
+        },
+        {
+          "id": 4,
+          "title": "How to remove kidney stones",
+          "id_video": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "type": "video"
+        },
+        {
+          "id": 5,
+          "title": "The science of superstition",
+          "id_video": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "type": "video"
+        },
+        {
+          "id": 6,
+          "title": "5 Reasons to choose a notebook over a desktop computer",
+          "id_video": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "type": "video"
+        },
+        {
+          "id": 7,
+          "title": "Get around easily with a New York Limousine Service",
+          "id_video": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "type": "video"
+        },
+        {
+          "id": 8,
+          "title": "How to cook a tender juicy steak",
+          "id_video": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "type": "video"
+        },
+        {
+          "id": 9,
+          "title": "How to remove kidney stones",
+          "id_video": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "type": "video"
+        },
+        {
+          "id": 10,
+          "title": "The science of superstition",
+          "id_video": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "type": "video"
+        }
+      ]
+    }
+  ]
+}

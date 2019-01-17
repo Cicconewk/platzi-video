@@ -1,0 +1,13 @@
+.media {
+  width: 260px;
+  max-height: 360px;
+  cursor: pointer;
+  margin: 0 5px 0 5px;
+}
+.media:hover {
+  opacity: .5;
+}
+
+.media-image {
+  height: 160px;
+}
