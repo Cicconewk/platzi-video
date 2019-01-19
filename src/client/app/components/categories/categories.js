@@ -1,9 +1,8 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import Category from './category'
 
 export default function Categories (props) {
   return(
-    <Fragment>
       <div className="row">
         <div className="col-sm-12">
           {
@@ -13,6 +12,5 @@ export default function Categories (props) {
           }
         </div>
       </div>
-    </Fragment>
   )
 }

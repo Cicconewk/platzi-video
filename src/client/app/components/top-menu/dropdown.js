@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './dropdown.css'
+import '../../styles/dropdown.css'
 
 export default class Dropdown extends Component {
   render() {
@@ -11,9 +11,9 @@ export default class Dropdown extends Component {
             {username}
           </button>
           <div className="dropdown-menu">
-            <a className="dropdown-item" href="#">Action</a>
-            <a className="dropdown-item" href="#">Action</a>
-            <a className="dropdown-item" href="#">Action</a>
+            <a className="dropdown-item" href="/profile">Profile</a>
+            <a className="dropdown-item" href="#">Upload video</a>
+            <a className="dropdown-item" href="#">Log out</a>
           </div>
         </div>
       </div>

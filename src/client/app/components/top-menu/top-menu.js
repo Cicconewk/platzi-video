@@ -1,5 +1,5 @@
 import React from 'react'
-import './top-menu.css'
+import '../../styles/top-menu.css'
 
 export default function TopMenu (props) {
   return (

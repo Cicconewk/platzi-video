@@ -10,7 +10,7 @@ app.set('port', PORT)
 app.use(express.json()) // This will return in JSON format the data
 
 // ROUTES
-app.use('/videos', require(path.join(__dirname, 'server', 'routes', 'video.routes')))
+app.use('/videos', require(path.join(__dirname, 'server', 'routes', 'home.routes')))
 
 // STATIC FILES
 app.use(express.static(path.join(__dirname, 'client', 'public')))

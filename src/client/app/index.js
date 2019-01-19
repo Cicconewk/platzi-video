@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
-import HomeLayout from './pages/containers/home'
-import Data from '../../api.json'
+import App from './app'
+import data from '../../api.json'
 import userData from '../../user-api.json'
 
-render(<HomeLayout data={Data} userData={userData} />, document.getElementById("home"))
+render(<App data={data} userData={userData} />, document.getElementById("home"))

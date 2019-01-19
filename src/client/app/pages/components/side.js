@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../../../public/images/logo.png'
-import './side.css'
+import '../../styles/side.css'
 
 export default function Side (props) {
   return (

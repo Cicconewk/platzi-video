@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import HomeLayout from '../components/home-layout'
-import Categories from '../../categories/components/categories'
-import Search from '../../assets/search/component/search'
-import TopMenu from '../../assets/top-menu/component/top-menu'
-import Dropdown from '../../assets/top-menu/component/dropdown'
+import Categories from '../../components/categories/categories'
+import Search from '../../components/search/search'
+import TopMenu from '../../components/top-menu/top-menu'
+import Dropdown from '../../components/top-menu/dropdown'
 import Side from '../components/side'
 
 export default class Home extends Component {

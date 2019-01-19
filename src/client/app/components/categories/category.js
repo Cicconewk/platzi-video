@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
-import Playlist from '../../playlist/components/playlist'
-import './category.css'
+import Playlist from '../playlist/playlist'
+import '../../styles/category.css'
 
 export default class Category extends Component {
   render() {

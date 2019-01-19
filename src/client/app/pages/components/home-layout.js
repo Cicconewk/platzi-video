@@ -1,5 +1,5 @@
 import React from 'react'
-import './home-layout.css'
+import '../../styles/home-layout.css'
 
 export default function HomeLayout(props) {
   return(
