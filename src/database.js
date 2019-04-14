@@ -1,21 +1,13 @@
-const express = require('express')
-const app = express()
-const path = require('path')
-const PORT = 3000
+const mongoose = require('mongoose')
+const URI = `mongodb://localhost:27017/platzi-video`
 
-// SETTINGS
-app.set('port', PORT)
-
-// MIDDLEWARES
-app.use(express.json()) // This will return in JSON format the data
-
-// ROUTES
-app.use('/videos', require(path.join(__dirname, 'server', 'routes', 'home.routes')))
-
-// STATIC FILES
-app.use(express.static(path.join(__dirname, 'client', 'public')))
-
-// SERVER
-app.listen(app.get('port'), () => {
-  console.log(`Express server is up on port ${PORT}.`)
-})
+/**
+ * Mongoose is connected to a local database
+ */
+module.exports = {
+  initDatabase: () => {
+    mongoose.connect(URI, { useNewUrlParser: true, useCreateIndex: true })
+      .then( () => console.log('Database connected to platzi-video'))
+      .catch(err => console.log(err))
+  }
+}

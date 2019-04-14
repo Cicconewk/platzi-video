@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import HomeLayout from './pages/components/home-layout'
 
 import Home from './pages/containers/home'
 import Watch from './pages/containers/watch'
@@ -10,15 +11,18 @@ export default function App (props) {
 
   return(
     <Router>
-      <div>
+      <HomeLayout userData={userData}>
         <Switch>
           <Route exact path='/' 
-            render={props => <Home data={data} userData={userData} />} 
+            render={props => <Home data={data} />} 
           />
-          <Route path='/watch' component={Watch} />
+          <Route path='/watch/:id' 
+            render={({match}) => (
+              <Watch params={match.params} />
+            )} />
           <Route component={Error} />
         </Switch> 
-      </div>
+      </HomeLayout>
     </Router>
   )
 }

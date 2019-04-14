@@ -10,12 +10,12 @@ module.exports = {
   output: {
     path: BUILD_DIR,
     filename: 'js/[name].bundle.js',
-    publicPath: '/app/'
+    publicPath: '/'
   },
   devServer: {
-    contentBase: APP_DIR,
-    compress: true,
-    port: 3001
+    historyApiFallback: true,
+    contentBase: BUILD_DIR,
+    compress: true
   },
   module: {
     rules: [
